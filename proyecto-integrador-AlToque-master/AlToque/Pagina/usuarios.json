@@ -1,0 +1,20 @@
+{
+    "1": {
+        "nombre": "Juan",
+        "apellido": "1",
+        "mail": "usuario1@123.com",
+        "clave": "usuario1"
+    },
+    "2": {
+        "nombre": "Pepe",
+        "apellido": "2",
+        "mail": "usuario2@123.com",
+        "clave": "usuario2"
+    },
+    "3": {
+        "nombre": "Carlos",
+        "apellido": "3",
+        "mail": "usuario3@123.com",
+        "clave": "usuario3"
+    }
+}

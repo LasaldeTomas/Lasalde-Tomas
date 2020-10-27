@@ -1,0 +1,77 @@
+body{
+    background-size: cover;
+    margin: 0;
+    text-align: center;
+}
+
+.caja{
+    background-color: #dfe6e9;
+    height: 50%;
+    width: 27%;
+    margin-top: 8%;
+    display: inline-block;
+    padding-top: 4%;
+    border-radius: 5%;
+    border: #48dbfb 2px solid;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+
+    
+    
+}
+.caja h1 img{
+    width: 220px;
+
+}
+
+.caja input[type= "text"], .box input[type="nombre"]{
+    text-align: center;
+    border: 2px solid black;
+    transition: 0.10s;
+    outline: none;
+    
+
+    
+
+}
+
+.caja input[type= "email"], .box input[type="email"]{
+    text-align: center;
+    border: 2px solid black;
+    transition: 0.10s;
+    outline: none;
+    
+
+}
+.caja input[type= "password"], .box input[type="contraseña"]{
+    border: 2px solid black;
+    transition: 0.10s;
+    outline: none;
+    text-align: center;
+}
+
+.caja input[type= "text"]:focus, .box input[type="nombre"]:focus{
+    width: 220px;
+    border-color:#0984e3;
+}
+
+.caja input[type= "email"]:focus, .box input[type="email"]:focus{
+    width: 220px;
+    border-color:#0984e3;
+}
+
+.caja input[type= "password"]:focus, .box input[type="contraseña"]:focus{
+    width: 220px;
+    border-color:#0984e3;
+}
+.caja input[type="submit"]:hover{
+    background:#0984e3 ;
+    color: white;
+    transition: 0.10s;
+}
+.logo img{
+    position: absolute;
+    top: 90%;
+    left: 2%;
+    width: 200px;
+    ;
+}
